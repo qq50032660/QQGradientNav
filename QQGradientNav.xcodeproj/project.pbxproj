@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF40FE961ECBE67F00565CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FE951ECBE67F00565CF3 /* main.m */; };
+		DF40FE991ECBE67F00565CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FE981ECBE67F00565CF3 /* AppDelegate.m */; };
+		DF40FE9C1ECBE67F00565CF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FE9B1ECBE67F00565CF3 /* ViewController.m */; };
+		DF40FE9F1ECBE67F00565CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF40FE9D1ECBE67F00565CF3 /* Main.storyboard */; };
+		DF40FEA11ECBE67F00565CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF40FEA01ECBE67F00565CF3 /* Assets.xcassets */; };
+		DF40FEA41ECBE67F00565CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF40FEA21ECBE67F00565CF3 /* LaunchScreen.storyboard */; };
+		DF40FEAF1ECBE67F00565CF3 /* QQGradientNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FEAE1ECBE67F00565CF3 /* QQGradientNavTests.m */; };
+		DF40FEBA1ECBE67F00565CF3 /* QQGradientNavUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FEB91ECBE67F00565CF3 /* QQGradientNavUITests.m */; };
+		DF40FEC91ECBE91F00565CF3 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FEC81ECBE91F00565CF3 /* BaseNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF40FEAB1ECBE67F00565CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF40FE891ECBE67F00565CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF40FE901ECBE67F00565CF3;
+			remoteInfo = QQGradientNav;
+		};
+		DF40FEB61ECBE67F00565CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF40FE891ECBE67F00565CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF40FE901ECBE67F00565CF3;
+			remoteInfo = QQGradientNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF40FE911ECBE67F00565CF3 /* QQGradientNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQGradientNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF40FE951ECBE67F00565CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF40FE971ECBE67F00565CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF40FE981ECBE67F00565CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF40FE9A1ECBE67F00565CF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF40FE9B1ECBE67F00565CF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF40FE9E1ECBE67F00565CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF40FEA01ECBE67F00565CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF40FEA31ECBE67F00565CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF40FEA51ECBE67F00565CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF40FEAA1ECBE67F00565CF3 /* QQGradientNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQGradientNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF40FEAE1ECBE67F00565CF3 /* QQGradientNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQGradientNavTests.m; sourceTree = "<group>"; };
+		DF40FEB01ECBE67F00565CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF40FEB51ECBE67F00565CF3 /* QQGradientNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQGradientNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF40FEB91ECBE67F00565CF3 /* QQGradientNavUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQGradientNavUITests.m; sourceTree = "<group>"; };
+		DF40FEBB1ECBE67F00565CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF40FEC71ECBE91F00565CF3 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		DF40FEC81ECBE91F00565CF3 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF40FE8E1ECBE67F00565CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEA71ECBE67F00565CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEB21ECBE67F00565CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF40FE881ECBE67F00565CF3 = {
+			isa = PBXGroup;
+			children = (
+				DF40FE931ECBE67F00565CF3 /* QQGradientNav */,
+				DF40FEAD1ECBE67F00565CF3 /* QQGradientNavTests */,
+				DF40FEB81ECBE67F00565CF3 /* QQGradientNavUITests */,
+				DF40FE921ECBE67F00565CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF40FE921ECBE67F00565CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FE911ECBE67F00565CF3 /* QQGradientNav.app */,
+				DF40FEAA1ECBE67F00565CF3 /* QQGradientNavTests.xctest */,
+				DF40FEB51ECBE67F00565CF3 /* QQGradientNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF40FE931ECBE67F00565CF3 /* QQGradientNav */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FE971ECBE67F00565CF3 /* AppDelegate.h */,
+				DF40FE981ECBE67F00565CF3 /* AppDelegate.m */,
+				DF40FE9A1ECBE67F00565CF3 /* ViewController.h */,
+				DF40FE9B1ECBE67F00565CF3 /* ViewController.m */,
+				DF40FEC71ECBE91F00565CF3 /* BaseNavigationController.h */,
+				DF40FEC81ECBE91F00565CF3 /* BaseNavigationController.m */,
+				DF40FE9D1ECBE67F00565CF3 /* Main.storyboard */,
+				DF40FEA01ECBE67F00565CF3 /* Assets.xcassets */,
+				DF40FEA21ECBE67F00565CF3 /* LaunchScreen.storyboard */,
+				DF40FEA51ECBE67F00565CF3 /* Info.plist */,
+				DF40FE941ECBE67F00565CF3 /* Supporting Files */,
+			);
+			path = QQGradientNav;
+			sourceTree = "<group>";
+		};
+		DF40FE941ECBE67F00565CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FE951ECBE67F00565CF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF40FEAD1ECBE67F00565CF3 /* QQGradientNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FEAE1ECBE67F00565CF3 /* QQGradientNavTests.m */,
+				DF40FEB01ECBE67F00565CF3 /* Info.plist */,
+			);
+			path = QQGradientNavTests;
+			sourceTree = "<group>";
+		};
+		DF40FEB81ECBE67F00565CF3 /* QQGradientNavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FEB91ECBE67F00565CF3 /* QQGradientNavUITests.m */,
+				DF40FEBB1ECBE67F00565CF3 /* Info.plist */,
+			);
+			path = QQGradientNavUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF40FE901ECBE67F00565CF3 /* QQGradientNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF40FEBE1ECBE67F00565CF3 /* Build configuration list for PBXNativeTarget "QQGradientNav" */;
+			buildPhases = (
+				DF40FE8D1ECBE67F00565CF3 /* Sources */,
+				DF40FE8E1ECBE67F00565CF3 /* Frameworks */,
+				DF40FE8F1ECBE67F00565CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQGradientNav;
+			productName = QQGradientNav;
+			productReference = DF40FE911ECBE67F00565CF3 /* QQGradientNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF40FEA91ECBE67F00565CF3 /* QQGradientNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF40FEC11ECBE67F00565CF3 /* Build configuration list for PBXNativeTarget "QQGradientNavTests" */;
+			buildPhases = (
+				DF40FEA61ECBE67F00565CF3 /* Sources */,
+				DF40FEA71ECBE67F00565CF3 /* Frameworks */,
+				DF40FEA81ECBE67F00565CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF40FEAC1ECBE67F00565CF3 /* PBXTargetDependency */,
+			);
+			name = QQGradientNavTests;
+			productName = QQGradientNavTests;
+			productReference = DF40FEAA1ECBE67F00565CF3 /* QQGradientNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF40FEB41ECBE67F00565CF3 /* QQGradientNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF40FEC41ECBE67F00565CF3 /* Build configuration list for PBXNativeTarget "QQGradientNavUITests" */;
+			buildPhases = (
+				DF40FEB11ECBE67F00565CF3 /* Sources */,
+				DF40FEB21ECBE67F00565CF3 /* Frameworks */,
+				DF40FEB31ECBE67F00565CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF40FEB71ECBE67F00565CF3 /* PBXTargetDependency */,
+			);
+			name = QQGradientNavUITests;
+			productName = QQGradientNavUITests;
+			productReference = DF40FEB51ECBE67F00565CF3 /* QQGradientNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF40FE891ECBE67F00565CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fc_curry;
+				TargetAttributes = {
+					DF40FE901ECBE67F00565CF3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					DF40FEA91ECBE67F00565CF3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF40FE901ECBE67F00565CF3;
+					};
+					DF40FEB41ECBE67F00565CF3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF40FE901ECBE67F00565CF3;
+					};
+				};
+			};
+			buildConfigurationList = DF40FE8C1ECBE67F00565CF3 /* Build configuration list for PBXProject "QQGradientNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF40FE881ECBE67F00565CF3;
+			productRefGroup = DF40FE921ECBE67F00565CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF40FE901ECBE67F00565CF3 /* QQGradientNav */,
+				DF40FEA91ECBE67F00565CF3 /* QQGradientNavTests */,
+				DF40FEB41ECBE67F00565CF3 /* QQGradientNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF40FE8F1ECBE67F00565CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF40FEA41ECBE67F00565CF3 /* LaunchScreen.storyboard in Resources */,
+				DF40FEA11ECBE67F00565CF3 /* Assets.xcassets in Resources */,
+				DF40FE9F1ECBE67F00565CF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEA81ECBE67F00565CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEB31ECBE67F00565CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF40FE8D1ECBE67F00565CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF40FEC91ECBE91F00565CF3 /* BaseNavigationController.m in Sources */,
+				DF40FE9C1ECBE67F00565CF3 /* ViewController.m in Sources */,
+				DF40FE991ECBE67F00565CF3 /* AppDelegate.m in Sources */,
+				DF40FE961ECBE67F00565CF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEA61ECBE67F00565CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF40FEAF1ECBE67F00565CF3 /* QQGradientNavTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEB11ECBE67F00565CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF40FEBA1ECBE67F00565CF3 /* QQGradientNavUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF40FEAC1ECBE67F00565CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF40FE901ECBE67F00565CF3 /* QQGradientNav */;
+			targetProxy = DF40FEAB1ECBE67F00565CF3 /* PBXContainerItemProxy */;
+		};
+		DF40FEB71ECBE67F00565CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF40FE901ECBE67F00565CF3 /* QQGradientNav */;
+			targetProxy = DF40FEB61ECBE67F00565CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF40FE9D1ECBE67F00565CF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF40FE9E1ECBE67F00565CF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF40FEA21ECBE67F00565CF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF40FEA31ECBE67F00565CF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF40FEBC1ECBE67F00565CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF40FEBD1ECBE67F00565CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF40FEBF1ECBE67F00565CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQGradientNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.QQGradientNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF40FEC01ECBE67F00565CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQGradientNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.QQGradientNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF40FEC21ECBE67F00565CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQGradientNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.QQGradientNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQGradientNav.app/QQGradientNav";
+			};
+			name = Debug;
+		};
+		DF40FEC31ECBE67F00565CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQGradientNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.QQGradientNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQGradientNav.app/QQGradientNav";
+			};
+			name = Release;
+		};
+		DF40FEC51ECBE67F00565CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQGradientNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.QQGradientNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQGradientNav;
+			};
+			name = Debug;
+		};
+		DF40FEC61ECBE67F00565CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQGradientNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.QQGradientNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQGradientNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF40FE8C1ECBE67F00565CF3 /* Build configuration list for PBXProject "QQGradientNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40FEBC1ECBE67F00565CF3 /* Debug */,
+				DF40FEBD1ECBE67F00565CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF40FEBE1ECBE67F00565CF3 /* Build configuration list for PBXNativeTarget "QQGradientNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40FEBF1ECBE67F00565CF3 /* Debug */,
+				DF40FEC01ECBE67F00565CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF40FEC11ECBE67F00565CF3 /* Build configuration list for PBXNativeTarget "QQGradientNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40FEC21ECBE67F00565CF3 /* Debug */,
+				DF40FEC31ECBE67F00565CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF40FEC41ECBE67F00565CF3 /* Build configuration list for PBXNativeTarget "QQGradientNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40FEC51ECBE67F00565CF3 /* Debug */,
+				DF40FEC61ECBE67F00565CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF40FE891ECBE67F00565CF3 /* Project object */;
+}
